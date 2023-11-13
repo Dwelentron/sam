@@ -1,0 +1,63 @@
+.contents{
+    padding: 20px;
+    margin: 5%;
+}
+.start h2{
+    text-align: center;
+    color: rgb(34, 223, 160);
+    font-size: 50px;
+}
+.img{
+    display: flex;
+}
+.img img{
+    width: 97%;
+    padding: 10px;
+    box-shadow: .1em .1em .2em rgb(167, 167, 187);
+    border-radius: 5%;
+    margin-right: 2%;
+}
+.pic img{
+    width: 400px;
+    padding: 10px;
+    box-shadow: .1em .1em .2em rgb(167, 167, 187);
+    border-radius: 10%;
+    display: flex;
+}
+/* .pic .o{
+   
+}
+.pic .e{ 
+    
+} */
+.comp{
+    box-shadow: .1em .0em .5em;
+    width: 50%;
+}
+.comp h1{
+    text-align: center;
+    text-decoration: underline;
+    font-style: italic;
+    color: blue;
+}
+.fee{
+    margin-left: auto;
+    width: 50%;
+}
+.fee h1{
+    text-align: center;
+    text-decoration: underline;
+    font-style: italic;
+}
+.flex{
+    display: flex;
+    box-shadow: .1em .0em .5em;
+    margin: 12px;
+    border: solid;
+}
+/* .kim{
+   background-color: blue;
+   text-align: center;
+   box-shadow: .1em .7em .5em;
+   border-radius: 10%;
+} */

@@ -1,0 +1,114 @@
+.one{
+    display: flex;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    background-color: rgb(41, 241, 15);
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    color: white;
+    position: sticky;
+    top: 0;
+}
+.two{
+    width: 50px;
+    padding-left: 10px;
+}
+.three{
+    width: 2px;
+    background-color: green;
+    height: 60px;
+}
+.four{
+    font-size: 30px;
+    margin-right: auto;
+    color: blue;
+}
+.five{
+    padding-right: 5px;
+}
+.five ul{
+    display: flex;
+    list-style: none;
+}
+.five ul li a{
+    text-decoration: none;
+    margin-right: 60px;
+    color: inherit;
+}
+.five ul li:hover{
+    text-decoration: underline;
+    font-style: italic;
+    color: blueviolet;
+    display: grid;
+}
+.six{
+    display: none;
+}
+.five ul li:hover .six{
+    display: block;
+    position: absolute;
+    background-color: rgb(241, 151, 15);
+}
+.five ul li:hover .six ul {
+    display: block;
+}
+.five ul li:hover .six ul li{
+    padding: 0.3rem 0.3rem;
+}
+.button{
+    position: absolute;
+    top: .7rem;
+    right: 1rem;
+    display: none;
+    width: 20px;
+    height: 20px;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.button .bar{
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    margin: .2rem;
+}
+@media(max-width: 800px){
+    .five{
+        display: none;
+        width: 100%;
+    }
+    .button{
+        display: flex;
+    }
+    .five{
+        flex-direction: column;
+        width: 100%;
+    }
+    .five ul{
+        flex-direction: column;
+    }
+    .five li{
+        text-align: center;
+    }
+    .five.active{
+        display: flex;
+    }
+    .ten {
+        display: block;
+        text-align: left;
+    }
+    .ten.active{
+        left: 50%;
+    }                                                           
+}
+.ten{
+    position: fixed;
+    min-height: 100svh;
+    display: block;
+    width: 50vw;
+    background-color: aquamarine;
+    left: 100%;
+    transition: 0.4s;
+}
+                       
